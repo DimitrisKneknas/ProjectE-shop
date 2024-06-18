@@ -23,7 +23,7 @@ const AllProducts = () => {
   return (
     <div>
         <div className='bg-black py-2 px-4 flex justify-between items-center'>
-            <h2 className='font-bold text-white'>All Product</h2>
+            <h2 className='font-bold text-white'>All Products</h2>
             <button  className='border-2 bg-white border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all py-1 px-3 rounded-full ' onClick={()=>setOpenUploadProduct(true)}>Upload Product</button>
         </div>
 
